@@ -1,0 +1,71 @@
+<mjml>
+
+    <mj-head>
+        <!-- ATRIBUTOS -->
+            <mj-attributes>
+                <mj-class name="roof"  font-family="Helvetica Neue">
+                <mj-class name="textos" color="red"/>
+                <mj-breakpoint width="320px" />
+            </mj-attributes>
+        <!-- ATRIBUTOS -->
+    </mj-head>
+
+
+
+  <mj-body background-color="#FFFFFF" width="650px">
+
+    <mj-section background-url="https://www.kaufmann.cl/wp-content/uploads/2016/10/15C154_032_D218538.jpg"  background-size="cover" background-repeat="no-repeat">
+        <mj-column width="500px">
+            <mj-text color="#FFFFFF" font-size="32px" align="center" font-style="bold">
+                <b>NO TE LO PIERDAS</b>
+            </mj-text>
+            <mj-button background-color="#000000" href="#" align="center">
+                ENCUÉNTRALO AQUÍ
+            </mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000">
+    <!-- SECCIÓN DER-->
+      <mj-column>
+        <mj-text font-style="bold" font-size="20px" color="#FFFFFF" align="center" >
+           Nuevo modelo de <br>auto Kaufmann
+        </<mj-text>
+        </mj-text>
+      </mj-column>
+      <!-- SECCIÓN IZQ-->
+      <mj-column>
+            <mj-text font-style="bold" font-size="20px" color="#FFFFFF" align="center" >
+                   Próximamente
+            <mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="#fbfbfb">
+        <mj-column>
+            <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0l.png" />
+        </mj-column>
+        <mj-column>
+            <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x01.png" />
+        </mj-column>
+        <mj-column>
+            <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
+        </mj-column>
+    </mj-section>
+
+
+<!-- REDES SOCIALES -->
+    <mj-section background-color="#000000">
+        <mj-column>
+            <mj-social>
+                <mj-social-element name="facebook" />
+                <mj-social-element name="twitter" />
+                <mj-social-element name="youtube" />
+            </mj-social>
+        </mj-column>
+    </mj-section>
+<!-- REDES SOCIALES -->
+
+  </mj-body>
+</mjml>
